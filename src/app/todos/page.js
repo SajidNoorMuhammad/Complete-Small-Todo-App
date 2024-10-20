@@ -22,7 +22,7 @@ const Todo = async () => {
 
                         <Link href={`/todos/${todos.id}`}>
                             <div className='bg-gray-200 rounded'>
-                                <h1 className='  mt-2 p-3 text-2xl font-serif'>{todos.todo}</h1>
+                                <h1 className=' mt-2 p-3 text-2xl font-serif'>{todos.todo}</h1>
                             </div>
                         </Link>
                     ))
